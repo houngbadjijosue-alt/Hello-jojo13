@@ -1,0 +1,9 @@
+/* Basic styles matching the requested palette */
+:root{
+  --blue-night: #0D6EFD;
+  --bg: #1E1E1E;
+  --accent: #00FFB2;
+  --text: #EAEAEA;
+}
+body { margin:0; font-family: 'Roboto', sans-serif; background:var(--bg); color:var(--text); }
+a { color: var(--accent); }
